@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - vmware.vmware_rest.vcenter_vm_hardware_memory:
+
